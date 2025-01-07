@@ -1,0 +1,115 @@
+section {
+    width: 100%;
+    height: 100vh;
+}
+h1 {
+    text-align: center;
+    color: #32B531;
+    text-shadow: 0 0 25px #32B531;
+}   
+.about {
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imageTwo {
+    background-image: url("./assets/Pranjal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 15em;
+    width: 15em;
+    border: 6px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 70px #32B531;
+}
+.aboutMe {
+    font-size: 1.4em;
+    width: 29em;
+}
+.icons {
+    margin-left: 670px;
+    margin-top: 60px;
+}
+.icon {
+    margin-right: 25px;
+    font-size: 30px;
+}
+.icon:hover {
+    color: #32B531;
+    text-shadow: 0 0 20px #32B531;
+}
+.lineTwo {
+    display: none;
+}
+@media(max-width:1050px) {
+    .imageTwo {
+        height: 10em;
+        width: 10em;
+        box-shadow: 0 0 50px #32B531;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-bottom: 80px
+    }
+    .about {
+        margin-right: 0px;
+        margin-top: 80px;
+        align-items: center;
+    }
+    .icons {
+        margin-left: 350px;
+        margin-top: 40px;
+    }
+}
+@media(max-width:770px) {
+    .aboutMe {
+        font-size: 1.2em;
+    }
+}
+@media(max-width:650px) {
+    .about {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .imageTwo {
+        height: 6em;
+        width: 6em;
+        box-shadow: 0 0 30px #32B531;
+        margin-right: 150px;
+        margin-bottom: 30px;
+    }
+    .icons {
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    .icon {
+        font-size: 25px;
+    }
+    .about {
+        display: block;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .aboutMe {
+        font-size: 0.9em;
+        width: 90%;
+    }
+    .lineTwo {
+        border-left: 1px solid #32B531;
+        height: 300px;
+        margin-left: 50%;
+        margin-top: 50px;
+        writing-mode: vertical-lr;
+        text-orientation:upright;
+        color: #32B531;
+        display: inline;
+    }
+}
+@media(max-height:680px) {
+    .lineTwo {
+        display: none;
+    }
+}
