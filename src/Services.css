@@ -36,6 +36,7 @@ section {
 .card {
     border-color: black;
     margin-top: 15px;
+    text-align: center;
 }
 @media(max-width:1250px) {
     .card-img-top {
