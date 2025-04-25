@@ -33,7 +33,7 @@ export default function About() {
           <Link to="https://github.com/Pranjalsingh2233">
             <i className="icon fa-brands fa-github"></i>
           </Link>
-          <Link to="https://www.linkedin.com/in/pranjal-singh-7aa165274/">
+          <Link to="https://www.linkedin.com/in/pranjal-singh-642594278/">
             <i className="icon fa-brands fa-linkedin-in"></i>
           </Link>
         </BrowserRouter>

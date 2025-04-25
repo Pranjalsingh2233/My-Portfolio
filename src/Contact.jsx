@@ -53,7 +53,7 @@ export default function Contact() {
               <Link to="https://github.com/Pranjalsingh2233">
                 <i className="icon-2 fa-brands fa-github"></i>
               </Link>
-              <Link to="https://www.linkedin.com/in/pranjal-singh-7aa165274/">
+              <Link to="https://www.linkedin.com/in/pranjal-singh-642594278/">
                 <i className="icon-2 fa-brands fa-linkedin-in"></i>
               </Link>
             </BrowserRouter>

@@ -54,7 +54,7 @@ section {
         margin-top: 50px !important;
     }
     .card-text {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 @media(max-width:800px) {
@@ -65,7 +65,7 @@ section {
         margin-top: 40px !important;
     }
     .card-text {
-        font-size: 14px;
+        /* font-size: 14px; */
     }
 }
 @media(max-width:650px) {
@@ -84,7 +84,7 @@ section {
         /* font-size: 18px; */
     }
     .card-text {
-        font-size: 13px;
+        /* font-size: 13px; */
     }
 }
 @media(max-width:576px) {
