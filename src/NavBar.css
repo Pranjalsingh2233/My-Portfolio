@@ -9,7 +9,7 @@
     animation: slidebottom 2s ease normal;
 }
 .navbar-toggler-icon {
-    background-color:  #0f0f0f;
+    background-color:  #B0B0B0          ;
     border: 1px solid black;
 }
 .navbar-toggler:focus{

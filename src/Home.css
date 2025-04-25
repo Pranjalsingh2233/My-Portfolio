@@ -173,7 +173,7 @@ section {
         color: #32B531;
         display: inline;
     } */
-    .btn:active {
+    /* .btn:active {
         background-color: black !important;
         border:  1px solid black !important;
         box-shadow: 0 0 10px #32B531 !important;
@@ -181,7 +181,7 @@ section {
     .btn:hover {
         background-color: #32B531;
         box-shadow: 0 0 10px #32B531;
-    }
+    } */
     .name {
         font-size: 30px;
     }

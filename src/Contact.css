@@ -92,11 +92,13 @@ section {
     align-items: center;
     background-color: #32B531;
     margin-top: 50px;
+    height: 40px;
 }
 .footer p {
     color: black;
     background-color: #32B531;
     font-weight: 600;
+    margin-bottom: 0;
 }
 .footer i {
     background-color: #32B531;
