@@ -25,7 +25,7 @@ export default function Home() {
           <br></br>
           <a
             className="btn1 btn btn-primary"
-            href="https://drive.google.com/file/d/1ye-Ew3Di3Jpg7Ocfwx6tGZjRX012wHHx/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1gBSzy_JbBlEeDb0vZa9y-7_f5c_PFks6/view?usp=sharing"
             role="button"
           >
             Resume
