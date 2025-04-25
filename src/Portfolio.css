@@ -2,4 +2,38 @@
   background-color: black;  
   color: #FFF;
   margin: 0;
+  padding: 0;
+}
+
+html, body {
+  overflow-x: hidden ; 
+  max-width: 100%;
+}
+
+.full-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.flex-content {
+  flex: 1;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.section {
+  overflow-x: hidden ; 
+  min-height: 100vh;
+  height: auto;           
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-margin-top: 50px !important;
+} 
+
+@media(min-width: 1800px) {
+  .section {
+   min-height: 84vh !important;
+  }
 }

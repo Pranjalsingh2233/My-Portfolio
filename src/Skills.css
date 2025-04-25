@@ -1,21 +1,32 @@
 section {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .skills {
-    margin-left: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items:center;
-    margin-top: 80px;
-
+    /* margin-left: 300px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: ; */
+    /* align-items:center; */
+    margin-top: 60px;
+    /* margin-left: 20px; */
+    gap: 1rem;
+    margin-left: 30px;
+}
+#_skills {
+    scroll-margin-top: 45px;
 }
 .box {
-    width: 500px;
     height: 200px;
     position: relative;
+    margin-right: 10px;
 }
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
 .outer {
     width: 160px;
     height: 160px;
@@ -46,49 +57,68 @@ circle {
     stroke-dashoffset: 440;
 }
 .ninety {
-    animation: animate 1s linear forwards;
+    animation: ninety 1s linear forwards;
 } 
 .eightyFive {
-    animation: anim 1s linear forwards;
+    animation: eightyFive 1s linear forwards;
 }
 .eighty {
-    animation: anime 1s linear forwards;
+    animation: eighty 1s linear forwards;
 }
+.hundred {
+    animation: hundred 1s linear forwards;
+}
+.ninetyFive {
+    animation: ninetyFive 1s linear forwards;
+}
+
 svg {
     position: absolute;
     top: 0;
     left: 0;
 }
-@keyframes animate{
+@keyframes ninety{
     100%{
         stroke-dashoffset: 44;
     }
 }
-@keyframes anim{
+@keyframes eightyFive{
     100%{
         stroke-dashoffset: 66;
     }
 }
-@keyframes anime{
+@keyframes eighty{
     100%{
         stroke-dashoffset: 88;
     }
 }
-@media(max-width:1300px) {
-    .skills {
-        margin-left: 150px;
+@keyframes hundred{
+    100%{
+        stroke-dashoffset: 0;
     }
+}
+@keyframes ninetyFive{
+    100%{
+        stroke-dashoffset: 22;
+    }
+}
+@media(max-width:1034px) {
     .box{
-        width: 300px;
+        width: 165px;
     }
 }
 @media(max-width:750px) {
     .skills {
-        margin-left: 20px;
+        /* margin-left: 20px; */
         margin-top: 40px;
     }
     .box{
-        width: 100px;
-        margin-right: 75px;
+        width: 90px;
+        margin-right: 78px;
+    }
+}
+@media(max-width:680px) {
+    #_skills {
+        padding-top: 40px;
     }
 }

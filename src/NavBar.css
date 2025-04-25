@@ -26,8 +26,8 @@
     text-shadow: 0 0 20px #32B531;
 }
 .navbar-brand:focus {
-    color: #AF1313 !important  ;
-    text-shadow: 0 0 20px #AF1313;
+    color: #1E8C1D !important  ;
+    text-shadow: 0 0 20px #1E8C1D;
 }
 .nav-item {
     font-size: large;
@@ -45,8 +45,8 @@
     text-shadow: 0 0 20px #32B531;
 }
 .nav-link:focus {
-    color: #AF1313 !important  ;
-    text-shadow: 0 0 20px #AF1313;
+    color: #1E8C1D !important  ;
+    text-shadow: 0 0 20px #1E8C1D;
 
 }
 @keyframes slidebottom {

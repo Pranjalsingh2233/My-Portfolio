@@ -1,7 +1,10 @@
 section {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 0px;
+}
+#_home {
+    scroll-margin-top: 64px;
 }
 
 .home {
@@ -10,6 +13,7 @@ section {
     margin-right: 200px;
     font-size: 2em;
     display: flex;
+    /* flex-wrap: wrap-reverse; */
     justify-content: space-between;
     align-items: center;
 }
@@ -28,19 +32,22 @@ section {
     animation: slidetop 2s ease normal;
 }
 .btn1:hover {
-    background-color: red;
+    background-color: #28A426;
     color: black;
     border: 1px solid black;
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 10px #28A426;
 }
 .btn1:active {
-    background-color: black !important;
-    border:  1px solid red !important;
-    box-shadow: 0 0 10px red !important;
+    color: black !important;
+    background-color: #1E8C1D !important;
+    border:  1px solid black !important;
+    box-shadow: 0 0 10px #1E8C1D !important;
 
 }
 .para {
     font-size: 23px;
+    max-width: 30rem;
+    width: 100%;
 }
 .image {
     background-image: url("./assets/Pranjal.jpg");
@@ -56,6 +63,7 @@ section {
 }
 .slideRight {
     animation: slideright 2s ease forwards;
+    
 }
 .slideLeft {
     animation: slideleft 2s ease backwards;
@@ -66,6 +74,10 @@ section {
     text-shadow: 0 0 25px #32B531;
 }
 .line {
+    display: none;
+}
+
+.dis-none-lg {
     display: none;
 }
 
@@ -117,34 +129,41 @@ section {
 }
 @media(max-width:930px) {
     .home{
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
 }
 @media(max-width:850px) {
     .image{
-        width: 5em;
-        height: 5em;
+        /* width: 6em;
+        height: 6em; */
     }
 }
 @media(max-width:740px) { 
     .home{
-        margin-left: 75px;
+        /* margin-left: 75px; */
     }
     .name{
         font-size: 40px;
     }    
-    .image{
-        display: none;
-    }
 }      
-@media(max-width:613px) {
+@media(max-width:713px) {
+    .home {
+        text-align: center;
+    }
+    .custom-flex {
+        justify-content: center !important;
+    }
+    .image {
+        margin: auto;
+    }
     .home {
         font-size: 25px;
     }
     .para {
-        font-size: 15px;
+        /* font-size: 15px; */
+        /* font-weight: 400; */
     }
-    .line {
+    /* .line {
         border-left: 1px solid #32B531;
         height: 500px;
         margin-left: 50%;
@@ -153,7 +172,7 @@ section {
         text-orientation:upright;
         color: #32B531;
         display: inline;
-    }
+    } */
     .btn:active {
         background-color: black !important;
         border:  1px solid black !important;
@@ -166,14 +185,46 @@ section {
     .name {
         font-size: 30px;
     }
-    .home {
+    
+    /* .home {
         font-size: 20px;
         margin-left: 60px;
+    } */
+
+}
+@media(max-width:818px) {
+    .home {
+        flex-wrap: wrap-reverse;
+    }
+    .dis-none-lg {
+        display: block;
+    }
+    .dis-none-sm {
+        display: none;
+    }
+    .custom-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center ;
     }
 
 }
-@media(max-height:850px) {
-    .line {
-        height: 300px;
+@media (max-width: 613px) {
+   
+}
+@media (max-width: 770px) {
+    .custom-flex {
+        flex-wrap: wrap-reverse;
+    }
+}
+@media (max-width: 580px) {
+    .home {
+        margin: 60px 40px !important;
+
+    }
+}
+@media(min-width: 1800px) {
+    .home {
+        justify-content: space-around;
     }
 }

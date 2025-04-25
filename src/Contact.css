@@ -1,9 +1,11 @@
 section {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
 }
-
+.sec {
+    scroll-margin-top: 64px;
+}
 .contact {
     display: flex;
     flex-wrap: wrap;
@@ -32,6 +34,11 @@ section {
     color: #32B531;
     text-shadow: 0 0 10px #32B531;
 }
+.work i:active {
+    color: #1E8C1D !important;
+    text-shadow: 0 0 20px #1E8C1D !important;
+}
+
 .work .icon-2 {
     margin-right: 25px;
     font-size: 30px;
@@ -66,25 +73,25 @@ section {
     border-radius: 16px;
 }
 .btn2:hover {
-    background-color: red;
+    background-color: #28A426;
     color: black;
     border: 1px solid black;
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 10px #28A426;
 }
 .btn2:active {
-    background-color: black !important;
-    border:  1px solid red !important;
-    box-shadow: 0 0 10px red !important;
+    background-color: #1E8C1D !important;
+    border:  1px solid  black !important;
+    box-shadow: 0 0 10px #1E8C1D !important;
+    color: black !important;
 
 }
 .footer {
-    position: absolute;
     width: 100%;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #32B531;
+    margin-top: 50px;
 }
 .footer p {
     color: black;
@@ -106,7 +113,7 @@ section {
         margin-top: 40px;
     }
     .sec {
-        height: 110vh;
+        /* height: 110vh; */
     }
 }
 @media(max-width: 600px) {
@@ -136,8 +143,8 @@ section {
         width: 100%;
     }
 }
-@media (max-height:750px) {
+@media (max-width:841px) {
     .sec {
-        height: 150vh;
+        padding-top: 40px;
     }
 }

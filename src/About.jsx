@@ -5,21 +5,24 @@ export default function About() {
   return (
     <section id="_about">
       <h1>About Me</h1>
-      <div className="about">
-        <div className="imageTwo"></div>
+      <div className="about text-center">
+        {/* <div className="imageTwo"></div> */}
         <div className="aboutMe">
-          Looking for a web developer who can turn your vision into a reality?
-          I'm a front-end developer with a passion for crafting innovative and
-          user-friendly websites.As a skilled frontend developer, I specialize
-          in crafting modern and responsive web applications using HTML, CSS,
-          JavaScript, and popular frameworks like ReactJS, Bootstrap, Tailwind
-          CSS, and Material UI. My goal is to create websites that not only look
-          great but also provide a seamless user experience. My ability to stay
-          up-to-date with the latest frontend technologies and industry best
-          practices ensures that I consistently deliver high-quality results.
+          Looking for a developer who can bring your vision to life from front
+          to back? I’m a passionate Full Stack Developer with a focus on
+          building modern, responsive, and scalable web applications. On the
+          front end, I specialize in crafting intuitive and visually compelling
+          user interfaces using HTML, CSS, JavaScript, and frameworks like
+          React.js, Bootstrap, and Material UI. On the back end, I build robust
+          and efficient server-side applications with Node.js, Express.js, and
+          MongoDB. I’m committed to writing clean, maintainable code and
+          delivering seamless user experiences. Staying up-to-date with the
+          latest technologies and best practices is at the core of what I
+          do—ensuring every project I deliver is reliable, secure, and
+          future-ready.
         </div>
       </div>
-      <div className="icons">
+      <div className="icons text-center">
         <BrowserRouter>
           <Link to="https://wa.me/919026840092">
             <i className="icon fa-brands fa-whatsapp"></i>

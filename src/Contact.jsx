@@ -18,14 +18,7 @@ export default function Contact() {
       return { ...currData, [fieldName]: newValue };
     });
   };
-  let handleSubmit = (event) => {
-    setFormData({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    });
-  };
+  let handleSubmit = (event) => {};
 
   return (
     <section className="sec" id="_contact">
@@ -70,7 +63,7 @@ export default function Contact() {
           <form
             action="https://formsubmit.co/bb1426756efc1a06a92eb369df305ded"
             method="POST"
-            onSubmit={handleSubmit}
+            // onSubmit={handleSubmit}
           >
             <input
               className="input"
@@ -112,12 +105,6 @@ export default function Contact() {
             ></input>
           </form>
         </div>
-      </div>
-      <div className="footer">
-        <p>
-          Made With <i className="fa-solid fa-heart"></i> By Pranjal Singh
-          &copy;2024
-        </p>
       </div>
     </section>
   );
